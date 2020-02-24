@@ -1,0 +1,65 @@
+@charset "utf-8";
+h1{
+	font-family: montserrat;
+}
+
+body{
+		min-height:100vh;
+		background-image:linear-gradient(120deg,#3498db,#8e44ad);
+	}
+	
+.login-form{
+		background:#f1f1f1;
+		position: absolute;
+		padding:80px 40px;
+    	width:550px;
+    	height:750px;
+    	left:50%;
+    	top:50%;
+    	border-radius:10px;
+    	transform:translate(-50%,-50%);
+}
+
+.login-form h1{
+	text-align:center;
+	margin-bottom:40px;
+}
+
+.txtb{
+	border-bottom:2px solid #adadad;
+	position: relative;
+	margin:30px 0;
+}
+
+.txtb input{
+	font-size:15px;
+	color: #333;
+	border:none;
+	width:100%;
+	outline:none;
+	background:none;
+	padding:0 5px;
+	height: 40px;
+}
+
+.login-button input{
+	font-size:30px;
+	font-family: montserrat;
+	align:center;
+	display:block;
+	width:100%;
+	height:40px;
+	border:none;
+	background-size:60%;
+	color:black;
+	outline:none;
+	cursor:pointer;
+	transition:.5s;
+}
+
+.bottom-text{
+	margin-top:20px;
+	text-align:center;
+	font-size:26px;
+}
+
